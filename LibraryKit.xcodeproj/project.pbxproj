@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A6015E112106A3C002B5B7B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6015E012106A3C002B5B7B /* Cocoa.framework */; };
+		4A6015E612106A3C002B5B7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A6015E412106A3C002B5B7B /* InfoPlist.strings */; };
+		4A6015F812106A67002B5B7B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6015F712106A67002B5B7B /* Cocoa.framework */; };
+		4A6015FD12106A67002B5B7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A6015FB12106A67002B5B7B /* InfoPlist.strings */; };
+		4A6015FF12106A67002B5B7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6015FE12106A67002B5B7B /* main.m */; };
+		4A60160212106A67002B5B7B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A60160012106A67002B5B7B /* MainMenu.xib */; };
+		4A60160512106A67002B5B7B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4A60160312106A67002B5B7B /* Credits.rtf */; };
+		4A60160812106A67002B5B7B /* LKTestApplicationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A60160712106A67002B5B7B /* LKTestApplicationAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A6015DE12106A3C002B5B7B /* LibraryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibraryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6015E012106A3C002B5B7B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4A6015E212106A3C002B5B7B /* LibraryKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LibraryKit-Info.plist"; sourceTree = "<group>"; };
+		4A6015E312106A3C002B5B7B /* LibraryKit_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryKit_Prefix.pch; sourceTree = "<group>"; };
+		4A6015E512106A3C002B5B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A6015F512106A66002B5B7B /* LKTestApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKTestApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6015F712106A67002B5B7B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4A6015F912106A67002B5B7B /* LKTestApplication-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LKTestApplication-Info.plist"; sourceTree = "<group>"; };
+		4A6015FA12106A67002B5B7B /* LKTestApplication_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKTestApplication_Prefix.pch; sourceTree = "<group>"; };
+		4A6015FC12106A67002B5B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A6015FE12106A67002B5B7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A60160112106A67002B5B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4A60160412106A67002B5B7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4A60160612106A67002B5B7B /* LKTestApplicationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKTestApplicationAppDelegate.h; sourceTree = "<group>"; };
+		4A60160712106A67002B5B7B /* LKTestApplicationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKTestApplicationAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A6015DA12106A3C002B5B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6015E112106A3C002B5B7B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6015F212106A66002B5B7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6015F812106A67002B5B7B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A6015CE12106A37002B5B7B = {
+			isa = PBXGroup;
+			children = (
+				4A6015D512106A39002B5B7B /* Classes */,
+				4A6015D612106A3C002B5B7B /* Other Sources */,
+				4A6015D712106A3C002B5B7B /* Resources */,
+				4A6015D812106A3C002B5B7B /* Frameworks */,
+				4A6015DF12106A3C002B5B7B /* Products */,
+				4A6015EC12106A66002B5B7B /* LKTestApplication */,
+			);
+			sourceTree = "<group>";
+		};
+		4A6015D512106A39002B5B7B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4A6015D612106A3C002B5B7B /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4A6015E312106A3C002B5B7B /* LibraryKit_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		4A6015D712106A3C002B5B7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A6015E212106A3C002B5B7B /* LibraryKit-Info.plist */,
+				4A6015E412106A3C002B5B7B /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4A6015D812106A3C002B5B7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A6015E012106A3C002B5B7B /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A6015DF12106A3C002B5B7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A6015DE12106A3C002B5B7B /* LibraryKit.framework */,
+				4A6015F512106A66002B5B7B /* LKTestApplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A6015EC12106A66002B5B7B /* LKTestApplication */ = {
+			isa = PBXGroup;
+			children = (
+				4A6015ED12106A66002B5B7B /* Classes */,
+				4A6015EE12106A66002B5B7B /* Other Sources */,
+				4A6015EF12106A66002B5B7B /* Resources */,
+				4A6015F012106A66002B5B7B /* Frameworks */,
+			);
+			path = LKTestApplication;
+			sourceTree = "<group>";
+		};
+		4A6015ED12106A66002B5B7B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4A60160612106A67002B5B7B /* LKTestApplicationAppDelegate.h */,
+				4A60160712106A67002B5B7B /* LKTestApplicationAppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4A6015EE12106A66002B5B7B /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4A6015FA12106A67002B5B7B /* LKTestApplication_Prefix.pch */,
+				4A6015FE12106A67002B5B7B /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		4A6015EF12106A66002B5B7B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A6015F912106A67002B5B7B /* LKTestApplication-Info.plist */,
+				4A6015FB12106A67002B5B7B /* InfoPlist.strings */,
+				4A60160012106A67002B5B7B /* MainMenu.xib */,
+				4A60160312106A67002B5B7B /* Credits.rtf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4A6015F012106A66002B5B7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A6015F712106A67002B5B7B /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4A6015DB12106A3C002B5B7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A6015DD12106A3C002B5B7B /* LibraryKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A6015E912106A3C002B5B7B /* Build configuration list for PBXNativeTarget "LibraryKit" */;
+			buildPhases = (
+				4A6015D912106A3C002B5B7B /* Sources */,
+				4A6015DA12106A3C002B5B7B /* Frameworks */,
+				4A6015DB12106A3C002B5B7B /* Headers */,
+				4A6015DC12106A3C002B5B7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LibraryKit;
+			productName = LibraryKit;
+			productReference = 4A6015DE12106A3C002B5B7B /* LibraryKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A6015F412106A66002B5B7B /* LKTestApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A60160912106A67002B5B7B /* Build configuration list for PBXNativeTarget "LKTestApplication" */;
+			buildPhases = (
+				4A6015F112106A66002B5B7B /* Sources */,
+				4A6015F212106A66002B5B7B /* Frameworks */,
+				4A6015F312106A66002B5B7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKTestApplication;
+			productName = LKTestApplication;
+			productReference = 4A6015F512106A66002B5B7B /* LKTestApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A6015D012106A37002B5B7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Recent Chaos Software, L.L.C.";
+			};
+			buildConfigurationList = 4A6015D312106A38002B5B7B /* Build configuration list for PBXProject "LibraryKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A6015CE12106A37002B5B7B;
+			productRefGroup = 4A6015DF12106A3C002B5B7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A6015DD12106A3C002B5B7B /* LibraryKit */,
+				4A6015F412106A66002B5B7B /* LKTestApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A6015DC12106A3C002B5B7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6015E612106A3C002B5B7B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6015F312106A66002B5B7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6015FD12106A67002B5B7B /* InfoPlist.strings in Resources */,
+				4A60160212106A67002B5B7B /* MainMenu.xib in Resources */,
+				4A60160512106A67002B5B7B /* Credits.rtf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A6015D912106A3C002B5B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6015F112106A66002B5B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6015FF12106A67002B5B7B /* main.m in Sources */,
+				4A60160812106A67002B5B7B /* LKTestApplicationAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A6015E412106A3C002B5B7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A6015E512106A3C002B5B7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A6015FB12106A67002B5B7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A6015FC12106A67002B5B7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A60160012106A67002B5B7B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A60160112106A67002B5B7B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		4A60160312106A67002B5B7B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A60160412106A67002B5B7B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A6015E712106A3C002B5B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		4A6015E812106A3C002B5B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		4A6015EA12106A3C002B5B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LibraryKit_Prefix.pch;
+				INFOPLIST_FILE = "LibraryKit-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = LibraryKit;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		4A6015EB12106A3C002B5B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LibraryKit_Prefix.pch;
+				INFOPLIST_FILE = "LibraryKit-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = LibraryKit;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		4A60160A12106A67002B5B7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LKTestApplication/LKTestApplication_Prefix.pch;
+				INFOPLIST_FILE = "LKTestApplication/LKTestApplication-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = LKTestApplication;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A60160B12106A67002B5B7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LKTestApplication/LKTestApplication_Prefix.pch;
+				INFOPLIST_FILE = "LKTestApplication/LKTestApplication-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = LKTestApplication;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A6015D312106A38002B5B7B /* Build configuration list for PBXProject "LibraryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6015E712106A3C002B5B7B /* Debug */,
+				4A6015E812106A3C002B5B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A6015E912106A3C002B5B7B /* Build configuration list for PBXNativeTarget "LibraryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6015EA12106A3C002B5B7B /* Debug */,
+				4A6015EB12106A3C002B5B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A60160912106A67002B5B7B /* Build configuration list for PBXNativeTarget "LKTestApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A60160A12106A67002B5B7B /* Debug */,
+				4A60160B12106A67002B5B7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A6015D012106A37002B5B7B /* Project object */;
+}

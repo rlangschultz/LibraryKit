@@ -1,0 +1,56 @@
+// !$*UTF8*$!
+{
+	4A6015D012106A37002B5B7B /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 4A6015F612106A67002B5B7B /* LKTestApplication */;
+		activeTarget = 4A6015DD12106A3C002B5B7B /* LibraryKit */;
+		codeSenseManager = 4A6015D412106A38002B5B7B /* Code sense */;
+		executables = (
+			4A6015F612106A67002B5B7B /* LKTestApplication */,
+		);
+		ignoreBreakpointsInProjectsDict = {
+		};
+		userBuildSettings = {
+		};
+	};
+	4A6015D412106A38002B5B7B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	4A6015DD12106A3C002B5B7B /* LibraryKit */ = {
+		activeExec = 0;
+	};
+	4A6015F412106A66002B5B7B /* LKTestApplication */ = {
+		activeExec = 0;
+		executables = (
+			4A6015F612106A67002B5B7B /* LKTestApplication */,
+		);
+	};
+	4A6015F612106A67002B5B7B /* LKTestApplication */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = LKTestApplication;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+}
